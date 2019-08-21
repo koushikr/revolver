@@ -38,6 +38,9 @@ import io.dropwizard.revolver.base.core.RevolverCallbackResponse;
 import io.dropwizard.revolver.base.core.RevolverCallbackResponses;
 import io.dropwizard.revolver.base.core.RevolverRequestState;
 import io.dropwizard.revolver.core.config.AerospikeMailBoxConfig;
+import lombok.extern.slf4j.Slf4j;
+import org.glassfish.jersey.internal.util.collection.StringKeyIgnoreCaseMultivaluedMap;
+
 import java.io.IOException;
 import java.time.Instant;
 import java.util.ArrayList;
@@ -45,8 +48,6 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import lombok.extern.slf4j.Slf4j;
-import org.glassfish.jersey.internal.util.collection.StringKeyIgnoreCaseMultivaluedMap;
 
 /**
  * @author phaneesh
